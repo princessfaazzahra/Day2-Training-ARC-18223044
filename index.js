@@ -28,7 +28,7 @@ fetch("https://dummyjson.com/products")
     console.log(data);
     data.products.forEach((products) =>{
         const container = document.createElement("div");
-        container.style.backgroundColor = "#FF1493";
+        container.style.backgroundColor = "#f3e5f5";
         container.style.margin = "10px";
         container.style.padding = "10px";
         container.style.border = "1px white solid";
@@ -38,17 +38,21 @@ fetch("https://dummyjson.com/products")
         const desc = document.createElement("div");
         const price = document.createElement("div");
         const rating = document.createElement("div");
+        const image = document.createElement("img");
 
         item.textContent = products.title;
         desc.textContent = products.description;
         price.textContent = products.price;
         rating.textContent = products.rating;
-
+        image.src = products.thumbnail;
+        image.width = 100;
+        image.alt = products.title;
         // masukin data ke container
         container.appendChild(item);
         container.appendChild(desc);
         container.appendChild(price);
         container.appendChild(rating);
+        container.appendChild(image);
         // biar smua data masuk ke html page
         products_section.appendChild(container);
     })
