@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(68, 68, 119);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#title {
+    color: rgba(255, 255, 255, 0.79);
+    font-size: 80px;
+    font-family: "Monotype Corsiva", cursive;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Button Styling */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+button {
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #e0b0ff; /* Soft lavender */
+    color: #4a235a;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #d1a3ff; /* Slightly darker lavender */
+}
+
+/* Message Styling */
+#main p {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Product Box */
+.product-box {
+    background-color: #f3e5f5; /* Soft pastel purple */
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Product Details */
+.product-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4a235a;
+}
+
+.product-desc {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-price,
+.product-rating {
+    font-size: 18px;
+    color: #6a0572;
+}
+
+/* Product Image */
+.product-image {
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
