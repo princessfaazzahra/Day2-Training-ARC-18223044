@@ -14,7 +14,6 @@ body {
     margin-top: 20px;
 }
 
-/* Button Styling */
 .button-container {
     display: flex;
     justify-content: center;
@@ -28,7 +27,7 @@ button {
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    background-color: #e0b0ff; /* Soft lavender */
+    background-color: #e0b0ff; 
     color: #4a235a;
     font-weight: bold;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -36,7 +35,7 @@ button {
 }
 
 button:hover {
-    background-color: #d1a3ff; /* Slightly darker lavender */
+    background-color: #d1a3ff; 
 }
 
 /* Message Styling */
@@ -46,19 +45,6 @@ button:hover {
     color: white;
 }
 
-/* Product Box */
-.product-box {
-    background-color: #f3e5f5; /* Soft pastel purple */
-    border-radius: 10px;
-    padding: 15px;
-    margin: 20px auto;
-    width: 80%;
-    max-width: 600px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-}
-
-/* Product Details */
 .product-title {
     font-size: 20px;
     font-weight: bold;
@@ -77,9 +63,8 @@ button:hover {
     color: #6a0572;
 }
 
-/* Product Image */
 .product-image {
-    width: 200px;
+    width: 140;
     border-radius: 10px;
     margin-top: 10px;
 }
